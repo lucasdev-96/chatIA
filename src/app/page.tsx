@@ -5,9 +5,12 @@ import "./globals.css"
 export default function Home() {
   return (
    <>
+   <div className="father-div">
    <div className="flex justify-center flex-col p-10 items-center">
    <Form />
    </div>
+   </div>
+
 
 
    </>

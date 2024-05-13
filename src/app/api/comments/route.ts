@@ -1,9 +1,8 @@
-import { NextApiRequest } from "next";
 import {pool} from '../../../../db.js'
 import { NextRequest } from "next/server.js";
 
 export async function GET(
-  req: NextApiRequest,
+  req: any,
 ) {
   const query = await pool.query('SELECT * FROM public.comments_')
   return Response.json(query.rows)

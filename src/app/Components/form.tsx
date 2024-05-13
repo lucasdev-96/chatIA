@@ -50,7 +50,7 @@ export const Form = () => {
     }
     return (
         <>
-          <div style={{color: 'white', marginBottom: '100px', textAlign: 'justify', maxWidth: '40vw', fontSize: '20px'}}>
+          <div style={{color: 'white', marginBottom: '100px', textAlign: 'justify', maxWidth: '80vw', fontSize: '20px'}}>
            {history.map(({user, model}, index) => (
                 <div key={index}>
                     <h3>{user ? `User: ${user}` : ''}</h3>
